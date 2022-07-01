@@ -4,6 +4,9 @@
 /*  background: #003366;*/
 /*  overflow: hidden;*/
 /*}*/
+.pyro{
+  display: none;
+}
 
 .pyro > .before, .pyro > .after {
   position: absolute;

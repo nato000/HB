@@ -18,3 +18,11 @@
   user-select: none;
   color: white;
 }
+
+@media (max-width: 400px) {
+  #text1,
+  #text2{
+    font-size: 60px;
+  }
+
+}

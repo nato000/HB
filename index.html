@@ -9,33 +9,37 @@
   <title>HB</title>
 </head>
 <body>
-<div class="pyro">
+<div class="pyro ">
   <div class="before"></div>
   <div class="after"></div>
 </div>
 <div class="app">
   <div class="container">
+<button class="clickme">🤔</button>
+    <div class="greetings">
+      <div id="container">
+        <span id="text1"></span>
+        <span id="text2"></span>
+      </div>
 
-  <div class="greetings">
-    <div id="container">
-      <span id="text1"></span>
-      <span id="text2"></span>
-    </div>
-
-    <svg id="filters">
-      <defs>
-        <filter id="threshold">
-          <feColorMatrix in="SourceGraphic" type="matrix" values="1 0 0 0 0
+      <svg id="filters">
+        <defs>
+          <filter id="threshold">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="1 0 0 0 0
 									0 1 0 0 0
 									0 0 1 0 0
-									0 0 0 255 -140" />
-        </filter>
-      </defs>
-    </svg>
-  </div>
+									0 0 0 255 -140"/>
+          </filter>
+        </defs>
+      </svg>
+    </div>
 
   </div>
+  <footer class="footer">
+    <span class="date">02.07.2022</span>
+  </footer>
 </div>
-<script src="text-animations.js"></script>
+<script src="./text-animations.js"></script>
+<script src="./myScript.js"></script>
 </body>
 </html>
